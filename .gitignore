@@ -1,0 +1,64 @@
+# Android Studio / IntelliJ / Gradle
+
+# Build folders
+/build/
+**/build/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+gradle-app.setting
+
+# Local config (no subir)
+local.properties
+*.local
+*.env
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/caches
+.idea/workspace.xml
+.idea/libraries
+.idea/modules.xml
+.idea/runConfigurations/
+
+# Keystore files (NO subir)
+*.jks
+*.keystore
+*/release.keystore
+*/debug.keystore
+
+# Google / Firebase
+google-services.json
+app/google-services.json
+serviceAccountKey.json
+firebase-debug.log
+
+# Crashlytics / Fabric
+.crashlytics/
+fabric.properties
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+
+# Profiling
+*.hprof
+
+# Misc
+captures/
+output.json
+*.log
+.DS_Store
+Thumbs.db
+
+# Jetpack Compose preview cache
+*.preview
+
+# Exclude gradle wrapper files except the wrapper itself
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
