@@ -1,0 +1,97 @@
+# =========================
+# Android Studio / IntelliJ
+# =========================
+*.iml
+.idea/
+.gradle/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+gradlew
+gradlew.bat
+
+# =========================
+# Log & Temp Files
+# =========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Keystore Files (no subir claves firmadas)
+# =========================
+*.jks
+*.keystore
+*.key
+*.pem
+*.p12
+
+# =========================
+# Android Studio Generated
+# =========================
+navigation.json
+*.hprof
+.compose-cache/
+
+# =========================
+# Firebase / Google Services
+# =========================
+google-services.json
+app/google-services.json
+google-services.plist
+
+# =========================
+# Local Configuration / Environment
+# =========================
+local.properties
+*.env
+
+# =========================
+# OS specific
+# =========================
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================
+# Node / API (si está en el mismo repo)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+.env
+dist/
+build/
+coverage/
+.DS_Store
+.vscode/
+
+# =========================
+# Optional: JetBrains IDEs
+# =========================
+.idea/
+*.iml
+out/
